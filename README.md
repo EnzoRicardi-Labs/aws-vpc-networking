@@ -13,7 +13,7 @@ This project demonstrates how to create a basic Amazon VPC from scratch using th
 
 ## Architecture
 
-(imagem)
+(tbd...)
 
 ## Implementation Steps
 
@@ -28,3 +28,10 @@ This project demonstrates how to create a basic Amazon VPC from scratch using th
 - Public vs Private networking
 - Internet Gateway
 - Route propagation
+
+## Possible Improvements
+
+- Add private subnets.
+- Deploy a NAT Gateway.
+- Enable VPC Flow Logs.
+- Improve network segmentation.
