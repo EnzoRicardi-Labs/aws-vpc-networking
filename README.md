@@ -13,7 +13,22 @@ This project demonstrates how to create a basic Amazon VPC from scratch using th
 
 ## Architecture
 
-(tbd...)
+(to be done...)
+
+## Architecture Components
+
+- Amazon VPC
+- Public Subnet
+- Internet Gateway
+- Route Table
+
+## Skills Demonstrated
+
+- Amazon VPC
+- Networking Fundamentals
+- Internet Gateway
+- Route Tables
+- AWS Management Console
 
 ## Implementation Steps
 
