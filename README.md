@@ -1,4 +1,4 @@
-# AWS VPC Networking
+# AWS VPC Networking Fundamentals
 
 ## Project Overview
 
