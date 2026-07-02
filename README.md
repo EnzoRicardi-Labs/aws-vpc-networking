@@ -17,7 +17,7 @@ The environment includes public and private subnets, Internet and NAT Gateways, 
 
 ## Architecture
 
-Available in "aws-vpc-networking/architecture"
+![AWS VPC Architecture](architecture/aws-vpc-networking.png)
 
 ## Skills Demonstrated
 
