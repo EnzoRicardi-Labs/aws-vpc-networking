@@ -2,40 +2,38 @@
 
 ## Project Overview
 
-This project demonstrates how to create a basic Amazon VPC from scratch using the AWS Management Console.
+This project demonstrates the creation of a basic Amazon VPC using the AWS VPC Wizard.
 
-## Services Used
-
-- Amazon VPC
-- Internet Gateway
-- Route Tables
-- Public Subnet
-
-## Architecture
-
-(to be done...)
+The environment includes public and private subnets, Internet and NAT Gateways, route tables, and Network ACLs following AWS networking best practices.
 
 ## Architecture Components
 
 - Amazon VPC
-- Public Subnet
 - Internet Gateway
-- Route Table
+- NAT Gateway
+- Public and Private Subnets
+- Network Access Control Lists
+- Route Tables
+
+## Architecture
+
+Available in "aws-vpc-networking/architecture"
 
 ## Skills Demonstrated
 
 - Amazon VPC
-- Networking Fundamentals
-- Internet Gateway
-- Route Tables
-- AWS Management Console
+- AWS Networking Fundamentals
+- Architecture Diagramming
 
 ## Implementation Steps
 
-1. Created a VPC
-2. Attached an Internet Gateway
-3. Created a Public Subnet
-4. Configured Route Tables
+1. Created a new Amazon VPC using the AWS VPC Wizard.
+2. Configured one public and one private subnet.
+3. Attached an Internet Gateway to provide public internet access.
+4. Created and associated a NAT Gateway for outbound traffic from the private subnet.
+5. Configured route tables for public and private network traffic.
+6. Applied Network ACLs to control subnet-level traffic.
+7. Validated the network topology using the AWS Resource Map.
 
 ## What I Learned
 
@@ -43,10 +41,19 @@ This project demonstrates how to create a basic Amazon VPC from scratch using th
 - Public vs Private networking
 - Internet Gateway
 - Route propagation
+- NAT Gateway purpose
 
 ## Possible Improvements
 
-- Add private subnets.
-- Deploy a NAT Gateway.
-- Enable VPC Flow Logs.
-- Improve network segmentation.
+- Deploy resources across multiple Availability Zones for high availability.
+- Implement Security Groups for workload-level protection.
+- Enable VPC Flow Logs for network monitoring.
+- Create custom Network ACL rules following least privilege.
+
+## Project Files
+
+- Architecture Diagram
+- AWS Resource Map
+- VPC Details
+- Public Route Table
+- Private Route Table
