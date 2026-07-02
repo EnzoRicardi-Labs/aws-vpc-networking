@@ -22,15 +22,16 @@ Available in "aws-vpc-networking/architecture"
 ## Skills Demonstrated
 
 - Amazon VPC
-- AWS Networking Fundamentals
-- Architecture Diagramming
+- AWS Networking
+- Amazon VPC Wizard
+- Network Architecture
 
 ## Implementation Steps
 
 1. Created a new Amazon VPC using the AWS VPC Wizard.
 2. Configured one public and one private subnet.
 3. Attached an Internet Gateway to provide public internet access.
-4. Created and associated a NAT Gateway for outbound traffic from the private subnet.
+4. Provisioned and associated a NAT Gateway for outbound traffic from the private subnet.
 5. Configured route tables for public and private network traffic.
 6. Applied Network ACLs to control subnet-level traffic.
 7. Validated the network topology using the AWS Resource Map.
