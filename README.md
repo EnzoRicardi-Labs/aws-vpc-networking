@@ -53,7 +53,7 @@ The environment includes public and private subnets, Internet and NAT Gateways, 
 
 ## Project Files
 
-- Architecture Diagram
+- Architecture Diagram (Lucidchart)
 - AWS Resource Map
 - VPC Details
 - Public Route Table
